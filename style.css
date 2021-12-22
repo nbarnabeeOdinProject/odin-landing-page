@@ -43,7 +43,7 @@ a {
 /* Hero section */
 
 .hero {
-  gap: 20px;
+  gap: 40px;
   padding: 100px 300px;
 }
 
@@ -70,19 +70,53 @@ a {
   flex-direction: column;
 }
 
-.main-top {
+.info {
   display: flex;
+  justify-content: center;
 }
 
-.main-top img {
+.main-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px;
+}
+
+.main-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.main-info img {
   height: 100px;
   width: 100px;
   border-radius: 10%;
 }
 
-.banner {
+.book,
+.road,
+.blossoms,
+.what {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  height: 200px;
+  gap: 5px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.bottom-banner {
   flex: 1
 }
+
+/* Footer */
 
 .footer {
   display: flex;
