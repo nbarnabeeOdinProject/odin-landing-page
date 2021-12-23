@@ -2,7 +2,7 @@
 
 The second project in The Odin Project's Foundation curriculum.
 
-This project is intended to test our understanding of flexbox.
+This project is intended to test our understanding of flexbox.  I believe I have completed it in a reasonable fashion, although my go-to solution for any problem seems to be "add another layer of boxes!"
 
 Images courtesy of
 

@@ -32,9 +32,16 @@ button {
 /* Header section */
 
 .header {
+  padding: 20px 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-contents {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 300px;
+  width: 994px;
 }
 
 .logo {
@@ -143,7 +150,6 @@ a, .hero-filler {
 
 .quote-box {
   width: 750px;
-  height: auto;
 }
 
 .quote {
@@ -174,7 +180,7 @@ a, .hero-filler {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: 50px 100px;
+  padding: 40px 100px;
 }
 
 .b-head {
@@ -194,7 +200,7 @@ a, .hero-filler {
 /* Footer */
 
 .footer {
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
