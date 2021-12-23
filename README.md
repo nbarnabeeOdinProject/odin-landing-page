@@ -1,5 +1,9 @@
 # odin-landing-page
 
+The second project in The Odin Project's Foundation curriculum.
+
+This project is intended to test our understanding of flexbox.
+
 Images courtesy of
 
 Pixabay
