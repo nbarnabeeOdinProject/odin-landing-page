@@ -16,8 +16,6 @@ body {
   background-color: #1F2937;
   color: white;
   display: flex;
-  padding: 20px 300px;
-  justify-content: space-between;
 }
 
 button {
@@ -35,6 +33,8 @@ button {
 
 .header {
   align-items: center;
+  justify-content: space-between;
+  padding: 20px 300px;
 }
 
 .logo {
@@ -54,22 +54,30 @@ a {
   text-decoration: none;
 }
 
+a, .hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 /* Hero section */
 
 .hero {
   gap: 40px;
   padding: 100px 300px;
+  justify-content: center;
+}
+
+.hero-contents {
+  display: flex;
+  gap: 40px;
+  width: 994px;
+  justify-content: space-between;
 }
 
 .hero-title {
   color:#F9FAF8;
   font-size: 48px;
   font-weight:900;
-}
-
-a, .hero-text {
-  font-size: 18px;
-  color: #E5E7EB;
 }
 
 .forest {
@@ -155,14 +163,13 @@ a, .hero-text {
 
 .bottom-banner {
   display: flex;
-  flex: 1;
+  flex: 1 0 auto;
 }
 
 .banner {
   background-color: #3882F6; 
   color: white;
   width: 700px;
-  margin: 170px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
