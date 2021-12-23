@@ -74,9 +74,8 @@ a, .hero-text {
   flex-direction: column;
 }
 
-.info {
-  display: flex;
-  justify-content: center;
+.top-third, .quote-space, .bottom-banner {
+  height: 400px;
 }
 
 .main-title {
@@ -115,6 +114,7 @@ a, .hero-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
 .quote {
@@ -130,13 +130,25 @@ a, .hero-text {
 }
 
 .caption {
-  align-self: right;
+  display:flex;
+  justify-content: flex-end;
+  width: 700px;
+  margin: 0 100px 100px 0;
 }
 
 
 .bottom-banner {
-  flex: 1
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
+
+.banner {
+  background-color: #3882F6; 
+  margin: 170px;
+}
+
 
 /* Footer */
 
