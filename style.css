@@ -1,12 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: Roboto, serif;
+  font-family: 'Roboto', serif;
   margin: 0;
   padding: 0;
 }
 
-.header,
-.hero,
-.footer {
+.header, .hero, .footer {
   background-color: #1F2937;
   color: white;
   display: flex;
@@ -35,9 +41,7 @@ ul {
 }
 
 a {
-  font-size: 18px;
   text-decoration: none;
-  color: #E5E7EB;
 }
 
 /* Hero section */
@@ -53,7 +57,7 @@ a {
   font-weight:900;
 }
 
-.hero-text {
+a, .hero-text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -80,7 +84,7 @@ a {
   color: #1F2937;
   font-weight: 900;
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 
 .main-info {
@@ -91,26 +95,44 @@ a {
 }
 
 .main-info img {
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   border-radius: 10%;
+  border: 2px solid black;
 }
 
-.book,
-.road,
-.blossoms,
-.what {
+.book, .road, .blossoms, .what {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 100px;
-  height: 200px;
+  width: 125px;
+  height: 225px;
   gap: 5px;
 }
 
-.text {
-  font-size: 14px;
+.quote-space {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: auto;
+  margin: 100px 100px 0 100px;
+}
+
+.caption {
+  align-self: right;
+}
+
 
 .bottom-banner {
   flex: 1
