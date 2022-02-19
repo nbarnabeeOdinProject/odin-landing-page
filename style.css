@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  border: 3px solid white;
+}
+
 body {
   font-family: 'Roboto', serif;
   margin: 0;
@@ -22,17 +26,17 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   border: none;
-  border-radius: 5px;
+  border-radius: 2%;
   font-weight: 700;
-  font-size: 15px;
-  padding: 6px 32px;
-  margin-top: 10px;
+  font-size: 1rem;
+  padding: 4% 12%;
+  margin-top: 5%;
 }
 
 /* Header section */
 
 .header {
-  padding: 20px 300px;
+  padding: 2% 20%;
   justify-content: center;
   align-items: center;
 }
@@ -41,11 +45,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 994px;
+  width: 100%;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 1.8rem;
   color: #F9FAF8;
 }
 
@@ -62,34 +66,45 @@ a {
 }
 
 a, .hero-filler {
-  font-size: 18px;
   color: #E5E7EB;
+  line-height: 1.3;
 }
 
 /* Hero section */
 
 .hero {
   gap: 40px;
-  padding: 100px 300px;
+  padding: 5% 15%;
   justify-content: center;
 }
 
 .hero-contents {
   display: flex;
-  gap: 40px;
-  width: 994px;
+  gap: 5%;
+  width: 95%;
   justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text > button {
+  width: 80%;
+  align-self: center;
 }
 
 .hero-title {
   color:#F9FAF8;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight:900;
 }
 
 .forest {
   height: auto;
-  width: 500px;
+  width: 100%;
 }
 
 /* Central section */
@@ -100,24 +115,25 @@ a, .hero-filler {
 }
 
 .top-third, .quote-space, .bottom-banner {
-  height: 400px;
   align-items: center;
   justify-content: center;
+  margin-block: 4%;
 }
 
 
 /* Top third - the information and pictures */
 
 .main-title {
-  font-size: 36px;
+  font-size: 2.5rem;
   color: #1F2937;
   font-weight: 900;
   text-align: center;
-  margin: 40px;
+  margin: 5% 10%;
 }
 
 .main-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 52px;
@@ -149,7 +165,8 @@ a, .hero-filler {
 }
 
 .quote-box {
-  width: 750px;
+  width:60%;
+  padding-block: 5%;
 }
 
 .quote {
